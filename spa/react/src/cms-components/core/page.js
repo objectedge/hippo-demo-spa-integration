@@ -101,7 +101,7 @@ export default class CmsPage extends React.Component {
     return (
       <React.Fragment>
         <Header pageModel={pageModel} preview={preview} />
-        <div className="container marketing">
+        <div className="marketing">
           <CmsComponent configuration={pageModel.page} pageModel={pageModel} preview={preview} />
 
           {/*rendering a specific container:*/}

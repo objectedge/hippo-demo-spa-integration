@@ -1,0 +1,117 @@
+.homeBanner {
+  max-width: 87.5rem;
+  margin: 0px auto 0px auto;
+}
+.homeBanner img {
+  max-width: 100%;
+}
+.homeBanner .content {
+  display: block;
+  position: absolute;
+  top: 25%;
+  width: 50%;
+  max-width: 43.25rem;
+  padding: 0 10% 0 10%;
+  text-align: center;
+  font-family: proxima, sans-serif;
+  color: black;
+}
+.homeBanner .content .introText {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.3125rem;
+}
+@media only screen and (min-width: 64.063em) {
+  .homeBanner .content .introText {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: 1.8px;
+  }
+}
+.homeBanner .content .brow {
+  display: block;
+  width: 6.25rem;
+  border: 1px solid #000000;
+}
+@media only screen and (min-width: 64.063em) {
+  .homeBanner .content .brow {
+    margin: 1.375rem auto;
+  }
+}
+@media (max-width: 64.063em) and (min-width: 40.063em) {
+  .homeBanner .content .brow {
+    width: 6.25rem;
+    margin: 1rem auto;
+  }
+}
+.homeBanner .content .title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.875rem;
+  margin-top: 0.3125rem;
+  text-transform: uppercase !important;
+}
+@media only screen and (min-width: 87.5em) {
+  .homeBanner .content .title {
+    font-size: 3rem;
+    line-height: 3.375rem;
+  }
+}
+@media (max-width: 87.5em) and (min-width: 64.063em) {
+  .homeBanner .content .title {
+    font-size: 3.428vw;
+    line-height: 3.857vw;
+  }
+}
+@media (max-width: 64.063em) and (min-width: 40.063em) {
+  .homeBanner .content .title {
+    font-size: 3.125vw;
+    line-height: 3.71vw;
+    letter-spacing: 2px;
+  }
+}
+.homeBanner .content .summary {
+  font-size: 0.875rem;
+  margin: 0.875rem auto;
+  line-height: 1.375rem;
+}
+@media only screen and (min-width: 64.063em) {
+  .homeBanner .content .summary {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 0.625rem auto 3.25rem;
+  }
+}
+.homeBanner .content .link {
+  padding-bottom: 1px;
+  border-bottom: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+}
+.homeBanner .content .link a {
+  color: black;
+  letter-spacing: 0.3px;
+}
+.homeBanner .content .link a:hover {
+  text-decoration: none;
+}
+@media only screen and (min-width: 64.063em) {
+  .homeBanner .content .link a {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (max-width: 64.063em) and (min-width: 40.063em) {
+  .homeBanner .content .link a {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+}
+.homeBanner .content .link:hover {
+  padding-bottom: 0;
+  border-bottom: 2px solid black;
+}

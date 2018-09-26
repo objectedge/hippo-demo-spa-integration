@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import CmsPage from './cms-components/core/page';
 import { baseUrls } from './env-vars';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingBag, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faShoppingBag, faAngleDown)
 
 export default class HomePage extends React.Component {
   render() {

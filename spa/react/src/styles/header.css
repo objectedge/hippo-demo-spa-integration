@@ -1,0 +1,68 @@
+#header {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 15px;
+}
+#header .headerRow1 {
+  font-family: proxima, sans-serif;
+  font-size: 11px;
+  height: 30px;
+}
+#header .headerRow1 .pipe {
+  height: 11px;
+  border-left: 1px solid #000000;
+}
+#header .headerRow1 .leftContent {
+  float: left;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#header .headerRow1 .leftContent .langSelect {
+  background-color: transparent;
+  font-size: 11px;
+  padding-left: 0;
+  cursor: pointer;
+}
+#header .headerRow1 .leftContent .langSelect .arrowIcon {
+  font-size: 18px;
+  margin-left: 4px;
+  padding-top: 5px;
+  transform: rotate(0deg);
+  transition: 500ms linear all;
+}
+#header .headerRow1 .leftContent .langSelect:hover .arrowIcon {
+  transform: rotate(180deg);
+  transition: 500ms linear all;
+}
+#header .headerRow1 .leftContent .promo {
+  color: black;
+  margin-left: 8px;
+}
+#header .headerRow1 .leftContent .promo a {
+  text-decoration: underline;
+  color: black;
+  margin-left: 8px;
+}
+#header .headerRow1 .rightContent {
+  float: right;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#header .headerRow1 .rightContent .loginBtn {
+  background-color: transparent;
+  font-size: 11px;
+  font-weight: 600;
+}
+#header .headerRow1 .rightContent .bagIcon {
+  margin-left: 8px;
+  font-size: 14px;
+}
+#header .headerRow2 .navbar {
+  padding: 0;
+}
+#header .headerRow2 .navbar .tomsLogo {
+  width: 15%;
+}

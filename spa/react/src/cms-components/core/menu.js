@@ -5,6 +5,7 @@ import { getConfigurationForPath } from '../../utils/get-configuration-for-path'
 export default class CmsMenu extends React.Component {
   renderMenu(configuration, pageModel, preview) {
     return configuration.models.menu.siteMenuItems.map((menuItem) => {
+      console.log(menuItem);
       return (
         <CmsMenuItem configuration={menuItem} preview={preview} key={menuItem.name} />
       )

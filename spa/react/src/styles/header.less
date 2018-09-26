@@ -1,0 +1,101 @@
+#header
+{
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    margin-bottom: 15px;
+
+    .headerRow1
+    {
+        font-family: proxima, sans-serif;
+        font-size: 11px;
+        height: 30px;
+
+        .pipe
+        {
+            height: 11px;
+            border-left: 1px solid rgba(0, 0, 0, 1);
+        }
+
+        .leftContent
+        {
+            float: left;
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+ 
+            .langSelect
+            {
+                background-color: transparent;
+                font-size: 11px;
+                padding-left: 0;
+                cursor: pointer;
+
+                .arrowIcon
+                {
+                    font-size: 18px;
+                    margin-left: 4px;
+                    padding-top: 5px;
+                    transform: rotate(0deg);
+                    transition: 500ms linear all;
+                }
+
+                &:hover
+                {
+                    .arrowIcon
+                    {
+                        transform: rotate(180deg);
+                        transition: 500ms linear all;
+                    }
+                }
+            }
+
+            .promo
+            {
+                color: black;
+                margin-left: 8px;
+
+                a
+                {
+                    text-decoration: underline;
+                    color: black;
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        .rightContent
+        {
+            float: right;
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+
+            .loginBtn
+            {
+                background-color: transparent;
+                font-size: 11px;
+                font-weight: 600;
+            }
+
+            .bagIcon
+            {
+                margin-left: 8px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .headerRow2
+    {
+        .navbar
+        {
+            padding: 0;
+
+            .tomsLogo
+            {
+                width: 15%;
+            }
+        }
+    }
+}
