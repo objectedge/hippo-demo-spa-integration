@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Hippo Demo SPA Integration Essentials
+Implementation-Version: 1.0.1
+Built-By: oedev
+Implementation-Vendor-Id: com.onehippo.cms7.demo
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_161
+Implementation-URL: 
+Implementation-Vendor: 
+
